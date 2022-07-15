@@ -14,7 +14,7 @@ console.log(uniquelist);
 const Restaurant = () => {
     // const myStyle = {color: "black"}
     const [menucard, setmenucard] = React.useState(Menu)
-    const [navlist, setnavlist] = React.useState(uniquelist)
+    const [navlist] = React.useState(uniquelist)
 
     const filteritem = (category) => {
         if(category==="All"){
